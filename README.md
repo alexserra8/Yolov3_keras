@@ -2,7 +2,7 @@
 
 In my final project of Master Data Science I developed a prototype of Smark. This project implement an intelligent shopping cart equipped with a camera that, applying artificial vision techniques, automatically recognizing the products that are introduced to it.
 
-In this repository I will show my work, and I encourage you to try it on your own with you data.
+In this repository I will show my work, and I encourage you to try it on your own with you data. I used **Python 3.**
 
 I have upload 3 folders:
 
@@ -14,6 +14,10 @@ I have upload 3 folders:
 
 * **Data**: where you can find a few images of the data for try it. And there is the weight of my CNN if you want to reply the project (train this weight took me more than 4 days :P)
 
+* **Results**: I share a video and photos with the results.
+
+
+
 
 ### BeforeTrain
 
@@ -22,7 +26,9 @@ Furthermore, there is a folder called "BeforeTrain" where you can find two Jupyt
 * "Distorsionar Fotos" --> We apply data augmentation using GAUSSIAN NOISE. Also, a code is written to obtain also the new bounding boxes we are obtaining in format *.txt that Yolo require.
 
 * "ExtractText_Train_Valid" --> In this notebook, once we have all the images, we split them in training and validation data. We obtain two files in format *.txt, one where there are the locations of training images, and the other with the locations of the validation images. This is the format required for Yolo.
-    
+   
+   
+   
 
 ### Applications
 
