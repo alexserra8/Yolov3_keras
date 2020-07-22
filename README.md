@@ -41,3 +41,6 @@ In this folder we show an applications where we can obtain if an object or produ
 * Leer definitivo2 --> Based on "Leer definitivo1", we coded one version for detecting the detection of the product.
 
 * Leer definitivo3 --> Based on "Leer definitivo2", the newest version of the code. We recommend use this version.
+
+
+If you have any doubt, contact me and I will be glad to help :)
