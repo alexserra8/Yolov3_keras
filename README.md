@@ -17,3 +17,7 @@ Furthermore, there is a folder called "BeforeTrain" where you can find two Jupyt
     
 
 ### Applications
+
+In this folder we show an applications where we can obtain if an object or product that appears in the video is moving to the right or to the left. We used this code to detect if a product of a supermarket is entring to the shopping cart or leaving. We have 3 versions:
+
+    * Leer definitivo1 
