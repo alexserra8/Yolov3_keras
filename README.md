@@ -1,19 +1,27 @@
 # Yolov3_keras
 
-In this respository there are two Jupyter Notebooks which define the YoloV3 network in Keras. This is repository can be used to train or test the YoloV3.
+In my final project of Master Data Science I developed a prototype of Smark. This project implement an intelligent shopping cart equipped with a camera that, applying artificial vision techniques, automatically recognizing the products that are introduced to it.
 
-- "Definicion del modelo" --> is the main *.ipynb where the YoloV3 is fully defined. Perfect for training the model.
+In this repository I will show my work, and I encourage you to try it on your own with you data.
 
-- "Funciones Yolo" --> a reduced *.ipynb where there are only the functions you will need to run to start your model once you have it trained.
+I have upload 3 folders:
+
+* **BeforeTrain**: where you can find a few helpful codes for Data agumentation and Split train and validation data.
+
+* **Keras**: in this folder there is the structure of YoloV3 written in keras.
+
+* **Applications**: here there are differents codes that will detect if the object is moving to the right or to the left.
+
+* **Data**: where you can find a few images of the data for try it. And there is the weight of my CNN if you want to reply the project (train this weight took me more than 4 days :P)
 
 
 ### BeforeTrain
 
 Furthermore, there is a folder called "BeforeTrain" where you can find two Jupyter Notebooks which can helps to create more data (Data augmentation) and helps you to split data between training and validation:
 
-    · "Distorsionar Fotos" --> We apply data augmentation using GAUSSIAN NOISE. Also, a code is written to obtain also the new bounding boxes we are obtaining in format *.txt that Yolo require.
+* "Distorsionar Fotos" --> We apply data augmentation using GAUSSIAN NOISE. Also, a code is written to obtain also the new bounding boxes we are obtaining in format *.txt that Yolo require.
 
-    · "ExtractText_Train_Valid" --> In this notebook, once we have all the images, we split them in training and validation data. We obtain two files in format *.txt, one where there are the locations of training images, and the other with the locations of the validation images. This is the format required for Yolo.
+* "ExtractText_Train_Valid" --> In this notebook, once we have all the images, we split them in training and validation data. We obtain two files in format *.txt, one where there are the locations of training images, and the other with the locations of the validation images. This is the format required for Yolo.
     
 
 ### Applications
