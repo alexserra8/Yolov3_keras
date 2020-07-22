@@ -20,4 +20,10 @@ Furthermore, there is a folder called "BeforeTrain" where you can find two Jupyt
 
 In this folder we show an applications where we can obtain if an object or product that appears in the video is moving to the right or to the left. We used this code to detect if a product of a supermarket is entring to the shopping cart or leaving. We have 3 versions:
 
-    * Leer definitivo1 
+**IMPORANT**: _we have to have the notebook "FuncionesYolo" in the same directory to run it._
+
+* Leer definitivo1 --> First document where we achieve obtain the bounding box of several photograms of the video (C=30 means that we take one photo every second of the video, C=15 means we take a phot of the video every 0,5 seconds). Here we don't detect the direction of the object
+
+* Leer definitivo2 --> Based on "Leer definitivo1", we coded one version for detecting the detection of the product.
+
+* Leer definitivo3 --> Based on "Leer definitivo2", the newest version of the code. We recommend use this version.
